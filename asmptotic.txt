@@ -1,0 +1,31 @@
+The study of change in performance of the algorithm with 
+the change in the order of the input size is defined as 
+asymptotic analysis.
+
+ASYMPTOTIC NOTATION :
+    Asymptotic notations are the mathematical notations 
+    used to describe the running time of an algorithm when 
+    the input tends towards a particular value or a limiting value.
+
+they are mainly of three types
+• Big-O-notation
+• Omega notation
+• Theta notation
+
+# Big-O-notation  (O-notation)
+
+Big-O-notation represents the uppper bound of the ruunning time 
+of an algorithem.thus it gives the wrost-case complexity of an 
+algorithem.it widely used to analyze an algorithm as we are always 
+interested in wrost case scenario
+
+# Omega notation  (Ω-notation)
+Omega notation represents the lower bound of the running time of an algorithem
+thus it provides the best case complexity of an algorithm
+
+# Theta Notation (Θ-notation)
+
+Theta notation enclose the function from above and below . since 
+it represent the upper and the lower bound of the running time 
+of an algorithm ,it is ussed for analyzing the average-case 
+complexity of an algorithm
