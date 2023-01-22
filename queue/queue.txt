@@ -1,0 +1,84 @@
+Queue follow the First in first out (FIFO) rule - the item that gors in 
+first is the item that comes out first
+
+-- Basic operations of Queue
+  - Enqueue : add an element to the and of the Queue
+  - Dequeue : Remove an element from the front of the Queue
+  - IsEmpty : check if queue is IsEmpty
+  - IsFull  : check if the queue is IsFull
+  - Peek :   get the value of the queue without removing it 
+
+• Wrking of the queue
+ - two pointers FRONT and REAR 
+ - Front Track the first element of the queue
+ - Rear track the last element of the queue
+ - initially set the value of FRONT and REAR to -1
+
+• Complexity Analysis
+ 
+ the complexity of the enqueue and dequeue operations in a queue using an arrey is O(1)
+ if we use pop(n) in python then the complexity might be O(n)
+
+TYPES OF Queue 
+• Simple Queue :
+                In a simple queue , insertion takes place at the rear and removal
+                occurs at the front it Strictly follows the FIFO (first in first out)
+• Circular Queue :
+               In a circular queue the last element point to the first making 
+               link of the queue. the main advantage is the no memory is wasted 
+               online simple queue
+
+      The Complexity of the enqueue and dequeue opeartions of a circular queue 
+      is O(1) for arrey Implementation
+
+      ‣ APPLICATION OF CIRCULAR Queue
+        - CPU scheduling
+        - Memory managment
+        - Traffic managment
+
+
+• Priority Queue :
+                 is a special type of queue in which each element is associated 
+                 with a Priority value and element are served on the basis of their 
+                 priority that is higher priority element are served first .
+                 - if element with the same priorty occur they are served according 
+                   to their order in the queue. 
+                 - Generally the value of the element itself is considered for 
+                   assigning the priority
+                 - we can also set priorities according tto our needs
+
+                ‣ DIFFERENCE BETWEEN PRIORITY QUEUE AND NORMAL QUEUE
+                  - in normal queue it follows FIFO
+                  - in priority queue the values are removed on the basis of priority
+                ‣ IMPLEMENTATION 
+                    priority queue can be implemented using an arrey,Linked list , a heap or
+                    binary search tree among these DS heap provides an efficient implementation 
+                    of priority queue
+                  
+                ‣ COMPLEXITY ANALYSIS
+                       Operations             Peek       Insert       delete
+
+                        Linked List           O(1)       O(n)           O(1)
+                        Binary Heap           O(1)       O(logn)        O(logn)
+                        Binary Search tree    O(1)       O(logn)        O(logn)
+
+
+• Double Ended Queue (Deqeue) :
+                             Insertion and removal of elements can be performend
+                             from either from the front or rear . it does not follow
+                             FIFO
+                            ‣ TYPES OF DEQUE
+                              - Input Restricted deque
+                                 input is restricted at a single end but allows Deletion
+                                 at both the ends
+                              - Output Restricted deque
+                                output is restricted  at a single end but allows insertion
+                                at both the ends 
+                            
+                            ‣ TIME COMPLEXITY
+                                the time complexity of all the above operations is constent O(1)
+                            
+                            ‣ APPLICATION OF DEQUE DS
+                              - in undo operations on softwares
+                              - to store history in browser 
+                              - for implementing both stacks and queues
