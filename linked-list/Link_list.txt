@@ -1,0 +1,22 @@
+A Linklist is a linear data structure that includes a series of 
+connected nodes. Here each nodes stores the DATA and the ADDRESS 
+of the next node 
+
+We gave the first NODE a special name called HEAD and the last node is NULL 
+The power of a linked list comes fro the ability to break the chain and rejoin 
+with the new element in between
+
+Linked List Complexity
+ Time Complexity         
+          Worst case            Average case 
+search    O(n)                    O(n)
+Insert    O(1)                    O(1)
+Deletion  O(1)                    O(1)
+
+Space Complexity O(n)
+
+Application of Linklist
+- Dynamic memory allocation
+- Implemented in stack and queue 
+- in undo functionallity og softwares 
+- hash table , Graph
