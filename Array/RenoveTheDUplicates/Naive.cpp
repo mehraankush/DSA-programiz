@@ -39,6 +39,7 @@ int RemoveDuplicates(int arr[],int n){
     }
     return res;
 }
+
 int main(){
    int arr[] ={20,30,30,30,40,50};
    int size = sizeof(arr)/sizeof(arr[0]);
