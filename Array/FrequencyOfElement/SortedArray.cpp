@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//time : theta(n)
 void frequency(int arr[],int n){
     int freq = 1;
     int i=1;
