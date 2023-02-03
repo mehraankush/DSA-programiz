@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
-
+// Kadones Algorithms
 //Time O(n)
-// add the last max subarray result to the current element and check which one is max res = max(maxEnding,res);
+// add the last max subarray result to the current element and check which one is max 
+// res = max(maxEnding,res);
 int maxSumSubarray(int arr[],int n){
     int res=arr[0];
     int maxEnding=arr[0];
