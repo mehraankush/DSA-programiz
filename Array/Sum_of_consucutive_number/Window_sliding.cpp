@@ -10,7 +10,7 @@ int slide_Window(int arr[],int n ,int k){
      
     int curr_sum=0;
     for(int i=k;i<n;i++){
-       curr_sum = max_sum + arr[i] - arr[i-k];
+       curr_sum = (max_sum - arr[i-k]) + arr[i];
        max_sum = max(max_sum,curr_sum);
     }
 
