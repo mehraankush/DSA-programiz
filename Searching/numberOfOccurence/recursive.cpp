@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 // O(logn)
 int firstOcc(int arr[],int low,int high,int x){
    
